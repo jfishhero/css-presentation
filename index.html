@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Text Properties</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>CSS Text Properties</h1>
+
+  <h2>Text-Align</h2>
+
+  <p>Text-align determines how text is justified on the page (or in the div or other element it exists within). The
+    text-align options include:
+  </p>
+  <dl>
+    <dt>text-align: center;</dt>
+    <dd>Centers text on the page</dd>
+    <dt>text-align: right;</dt>
+    <dd>Justifies text to the right</dd>
+    <dt>text-align: left;</dt>
+    <dd>Justifies text to the left (this is the default, so you rarely need to call for it)</dd>
+    <dt>text-align: justify;</dt>
+    <dd>Spreads words evenly from right to left of the page or element that holds the text</dd>
+  </dl>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOzGojR" data-user="jfishhero"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/jfishhero/pen/gOzGojR">
+        Text-Align Demo</a> by Johnson Hansen (<a href="https://codepen.io/jfishhero">@jfishhero</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Text-Decoration</h2>
+
+  <p>Text-decoration has several values within it, including line, color, style, and thickness. You can set them all at
+    once
+    by calling text-decoration: and then setting all the values with spaces between them. Here is a run through of the
+    different
+    values you can set within text-decoration.
+  </p>
+  <h3>text-decoration-line:</h3>
+  <p>Determines where the decoration will be relative to the text</p>
+  <dl>
+    <dt>overline;</dt>
+    <dd>Puts the decoration above the text</dd>
+    <dt>underline;</dt>
+    <dd>Puts the decoration below the text</dd>
+    <dt>line-through;</dt>
+    <dd>Puts the decoration through the text</dd>
+    <dt>underline overline;</dt>
+    <dd>Puts decorations above and below the text</dd>
+  </dl>
+
+  <h3>text-decoration-color:</h3>
+  <p>Sets the color of the decoration</p>
+
+  <h3>text-decoration-style:</h3>
+  <p>Sets the form the decoration line will take. This includes options like: solid, dashed, dotted, wavy, and double.
+  </p>
+
+  <h3>text-decoration-thickness:</h3>
+  <p>Determines the boldness of the decoration line</p>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGMoLGj" data-user="jfishhero"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/jfishhero/pen/bGMoLGj">
+        Text Decoration Demo</a> by Johnson Hansen (<a href="https://codepen.io/jfishhero">@jfishhero</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+  <h2>Text-Transform</h2>
+  <p>Text-transform has to do with capitalization of text and has 3 basic options.</p>
+  <dl>
+    <dt>text-transform: capitalize;</dt>
+    <dd>Capitalizes the first letter in each word, like a title</dd>
+    <dt>text-transform: uppercase;</dt>
+    <dd>Sets every letter to capital</dd>
+    <dt>line-text-transform: lowercase;</dt>
+    <dd>Sets every letter to lowercase (weird that uppercase has "capital" and "uppercase" to describe it, but I can't
+      think of any word other than "lowercase" to describe lowercase).</dd>
+
+  </dl>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="xxjXYVV" data-user="jfishhero"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/jfishhero/pen/xxjXYVV">
+        Text Transform Demo</a> by Johnson Hansen (<a href="https://codepen.io/jfishhero">@jfishhero</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Text-Indent</h2>
+  <p>Text-indent quite obviously controls how much the text is indented. It can be set in two different ways</p>
+  <dl>
+    <dt>By Length</dt>
+    <dd>Uses px, em, cm, etc. to set the indentation by a specific distance</dd>
+    <dt>By Percent</dt>
+    <dd>Uses a percentage of the parent element to determine how far the text should be indented</dd>
+  </dl>
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="mdLBQab" data-user="jfishhero"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/jfishhero/pen/mdLBQab">
+        Text Indent Demo</a> by Johnson Hansen (<a href="https://codepen.io/jfishhero">@jfishhero</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+  <h2>Line-Height</h2>
+
+  <p>Line-height determines how much space there is above and below the text. You can use three different methods to set
+    line height</p>
+  <dl>
+    <dt>By Number</dt>
+    <dd>Multiplies a number by the font size to determine spacing</dd>
+    <dt>By Length</dt>
+    <dd>Uses px, em, cm, etc. to set the spacing by a specific distance</dd>
+    <dt>By Percent</dt>
+    <dd>Uses a percentage of the font size to determine the spacing</dd>
+  </dl>
+
+
+  <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWMaEJb" data-user="jfishhero"
+    style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+    <span>See the Pen <a href="https://codepen.io/jfishhero/pen/NWMaEJb">
+        Line Height Demo</a> by Johnson Hansen (<a href="https://codepen.io/jfishhero">@jfishhero</a>)
+      on <a href="https://codepen.io">CodePen</a>.</span>
+  </p>
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+
+</body>
+
+</html>
